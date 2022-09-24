@@ -4,6 +4,14 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
+<div class="hero">
+  <div class="hero-content">
+    <div class="welcome-header">Hi, I'm Tyler</div>
+    <div class="welcome-text">This is my personal site where I documenting my learning process and completed projects. I also show a little bit of what interests me beyond web development. Start with with my introductory post *here* or head over to my *about me* page!</div>
+  </div>
+  <img src="./img/test.jpg" alt="">
+</div>
+
 {% set maxPosts = collections.posts.length | min(3) %}
 <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
 

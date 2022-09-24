@@ -131,9 +131,10 @@ code {
 .nav {
   padding: 0;
   list-style: none;
-  float: left;
+  float: right;
   margin-left: 1em;
 }
+
 .nav-item {
   display: inline-block;
   margin-right: 1em;
@@ -253,4 +254,43 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+
+/* Custom css */
+
+body {
+  padding: 0 20vw;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15vh 0;
+  padding-top: 50px;
+}
+
+.hero-content {
+  max-width: 450px;
+  margin-bottom: 30px;
+}
+
+.welcome-header {
+  font-size: 34px;
+  font-weight: bold;
+  padding: 20px 20px 20px 0;
+}
+
+.welcome-text {
+
+}
+
+.hero img {
+  height: auto;
+  max-width: 350px;
+  min-width: 250px;
+  width: 30vw;
+  border-radius: 15px;
 }
