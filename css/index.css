@@ -263,6 +263,30 @@ body {
   padding: 0 20vw;
 }
 
+@media (max-width: 380px) {
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home {
+  }
+
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0 2vw;
+  }
+  .home {
+    
+  }
+
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
