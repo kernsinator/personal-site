@@ -272,8 +272,9 @@ body {
     align-items: center;
   }
 
-  .home {
-  }
+  /* .hero img {
+    display: none;
+  } */
 
 }
 
@@ -281,8 +282,13 @@ body {
   body {
     padding: 0 2vw;
   }
-  .home {
-    
+
+  /* .hero {
+    flex-direction: column-reverse;
+  } */
+
+  .hero img {
+    margin: auto;
   }
 
 }
