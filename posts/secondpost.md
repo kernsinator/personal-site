@@ -1,12 +1,25 @@
 ---
-title: This is my second post.
-description: This is a post on My Blog about leveraging agile frameworks.
-date: 2018-07-04
+title: Creating this site.
+description: Here is how I started this site, including some of the roadblocks I found.
+date: 2022-09-25
 tags:
-  - number 2
+  - eleventy
+  - css
 layout: layouts/post.njk
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+
+- Added custom css to the bottom while i experimented
+- media queries and adjust mobile padding
+- do I keep profile pic on smallest image or no?
+- deploy to github/netlify
+- used simple blog starter. Looked at a few but this one had the most github stars
+- change theme: colors, active link marker
+- add footer
+- used flexbox for some changes like nav
+- pexel for stock images
+- already got night mode built in
+
 
 ## Section Header
 
