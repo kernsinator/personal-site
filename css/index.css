@@ -285,7 +285,7 @@ p {
 
 @media (max-width: 768px) {
   body {
-    padding: 0 2vw;
+    padding: 0;
   }
 
   /* .hero {
